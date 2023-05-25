@@ -1,0 +1,10 @@
+<div *ngFor="let question of questions">
+    <div class="question">
+      <h2 [innerHTML]="question.title"></h2>
+      <p><strong>Score:</strong> {{ question.score }}</p>
+      <p><strong>Owner:</strong> {{ question.owner.display_name }}</p>
+      <p><strong>Reputation:</strong> {{ question.owner.reputation }}</p>
+    </div>
+</div>
+  
+  

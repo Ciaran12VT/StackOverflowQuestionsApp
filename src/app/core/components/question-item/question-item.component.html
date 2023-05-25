@@ -1,0 +1,11 @@
+<div class="question-item">
+    <div class="question-number">#{{rank}}</div>
+    <div class="question-content">
+      <a href="{{question.link}}" target="_blank">{{question.title}}</a>
+      <div class="question-tags">
+        <span *ngFor="let tag of question.tags">{{tag}}</span>
+      </div>
+      <!-- Add additional fields as per the design -->
+    </div>
+</div>
+  

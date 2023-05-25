@@ -1,0 +1,19 @@
+.header {
+    background: #000;
+    color: #fff;  // Assuming the text color is white
+    display: flex;
+    flex-direction: column;  // To align items vertically
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    img {
+      max-width: 100%;  // To make the image responsive
+    }
+  
+    .header-text {
+      text-align: center;
+      margin-top: 10px;  // Space between the image and the text
+    }
+  }
+  
