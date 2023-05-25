@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { StackoverflowService } from '../../services/stackOverflow/stackoverflow.service';
-import { QuestionApiResponse, QuestionItem } from '../../services/stackOverflow/interfaces/stackoverflow-response';
+import { StackoverflowService } from '../../services/stackoverflow.service';
+import { QuestionApiResponse, QuestionItem } from '../../services/interfaces/stackoverflow-response';
 
 @Component({
   selector: 'app-questions-list',
